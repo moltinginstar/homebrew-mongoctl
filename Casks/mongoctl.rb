@@ -3,7 +3,7 @@ cask "mongoctl" do
   name "mongoctl"
   desc "A simple command-line tool for managing MongoDB connection profiles."
   homepage "https://github.com/moltinginstar/homebrew-mongoctl"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,12 +18,12 @@ cask "mongoctl" do
     on_intel do
       url "https://github.com/moltinginstar/mongoctl/releases/download/v#{version}/mongoctl_Darwin_x86_64.tar.gz",
         verified: "github.com/moltinginstar/homebrew-mongoctl"
-      sha256 "7621b3df7c22fd60501291ac3b7cb325553ad763b7bd7f3e1df2d09ea2946c46"
+      sha256 "558d8282b057de7f2a2e27cff9af9574ba88be831bc10ff841d0976dcaafc386"
     end
     on_arm do
       url "https://github.com/moltinginstar/mongoctl/releases/download/v#{version}/mongoctl_Darwin_arm64.tar.gz",
         verified: "github.com/moltinginstar/homebrew-mongoctl"
-      sha256 "d1210805026781ad815c8268603a0a61cc518354f6ad1143f88b3a7c5ffe9ed8"
+      sha256 "720031e80c03eeefcdd146f92401468ce10f01448426b397865644a9e686fd9a"
     end
   end
 
@@ -31,12 +31,12 @@ cask "mongoctl" do
     on_intel do
       url "https://github.com/moltinginstar/mongoctl/releases/download/v#{version}/mongoctl_Linux_x86_64.tar.gz",
         verified: "github.com/moltinginstar/homebrew-mongoctl"
-      sha256 "f3f50d33768cb5ec35de114082943b235998ce7f9dbab2c7247aca3d5a1e4f4d"
+      sha256 "6f9835f181834cc2d507327cc55a5a063045aa86dda0e51b5a899c8b8e3f32d7"
     end
     on_arm do
       url "https://github.com/moltinginstar/mongoctl/releases/download/v#{version}/mongoctl_Linux_arm64.tar.gz",
         verified: "github.com/moltinginstar/homebrew-mongoctl"
-      sha256 "9d3f92021cec8aabbb0da4d8a88d1aa31f599df9e123823e27deb4d99d2fe6da"
+      sha256 "5f456ac59f8a4aadec6562194861a48af982bcae39f9d983081adafd84c09c86"
     end
   end
 
